@@ -1,0 +1,332 @@
+{
+    "success": true,
+    "data": {
+        "total": 5444,
+        "items": [
+            {
+                "title": "Adani Group, RIL to set up biogas plants at Rs 500-600 cr investment each",
+                "feed_type": "news-article",
+                "link": "https://www.business-standard.com/article/companies/adani-group-ril-to-set-up-biogas-plants-at-rs-500-600-cr-investment-each-122080300464_1.html",
+                "description": "Adani and Reliance Group are planning to set up 40-million tonne per annum (mtpa) plants in Uttar Pradesh and Gujarat, while Reliance Industries is still formalising the two locations",
+                "date": "2022-08-03T12:25:54.000Z",
+                "image": "https://pocket-image-cache.com/direct?url=http://bsmedia.business-standard.com/_media/bs/img/article/2022-05/18/full/1652876645-5731.jpg",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/businessstandard.png",
+                    "id": "www.business-standard.com",
+                    "name": "Business Standard"
+                },
+                "stocks": [
+                    {
+                        "sid": "RELI"
+                    }
+                ],
+                "_id": "62ea718f7c1c3449d5fe4849"
+            },
+            {
+                "title": "Subex shares locked in 20% upper circuit on partnership with Jio Platforms",
+                "feed_type": "news-article",
+                "link": "https://www.businesstoday.in/markets/company-stock/story/subex-shares-locked-upper-circuit-jio-platforms-5g-services-343585-2022-08-03?utm_source=rssfeed",
+                "description": "Shares of Subex zoomed 20% today after the software company said it has announced a partnership for its AI Orchestration Platform, HyperSense, with Jio Platforms that will augment the 5G product line of Reliance Industries telecom business. Subex stock was stuck in the upper circuit of 20% at Rs 33.…",
+                "date": "2022-08-03T12:00:00.000Z",
+                "image": "https://pocket-image-cache.com/direct?url=http://akm-img-a-in.tosshub.com/businesstoday/images/story/202208/stocks-3-1200_0-sixteen_nine.jpg",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/businesstoday.png",
+                    "id": "www.businesstoday.in",
+                    "name": "Business Today"
+                },
+                "stocks": [
+                    {
+                        "sid": "RELI"
+                    },
+                    {
+                        "sid": "SUBX"
+                    }
+                ],
+                "_id": "62ea36a17c1c3449d5fe45f5"
+            },
+            {
+                "title": "Nifty August futures trade at premium",
+                "feed_type": "news-article",
+                "link": "https://www.business-standard.com/article/news-cm/nifty-august-futures-trade-at-premium-122080301225_1.html",
+                "description": "Reliance Industries (RIL), State Bank of India (SBI) and Infosys were the top traded contracts.",
+                "date": "2022-08-03T11:46:36.000Z",
+                "image": "https://assets.tickertape.in/images/news-publishers/businessstandard.png",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/businessstandard.png",
+                    "id": "www.business-standard.com",
+                    "name": "Business Standard"
+                },
+                "stocks": [
+                    {
+                        "sid": "IDTI"
+                    },
+                    {
+                        "sid": "INFY"
+                    },
+                    {
+                        "sid": "MIRA"
+                    },
+                    {
+                        "sid": "RELI"
+                    },
+                    {
+                        "sid": "SBI"
+                    },
+                    {
+                        "sid": ".NSEI"
+                    }
+                ],
+                "_id": "62ea63e87c1c3449d5fe47ab"
+            },
+            {
+                "title": "Nifty August futures trade at discount",
+                "feed_type": "news-article",
+                "link": "https://www.business-standard.com/article/news-cm/nifty-august-futures-trade-at-discount-122080201060_1.html",
+                "description": "Reliance Industries (RIL), HDFC Bank and ITC were the top traded contracts.",
+                "date": "2022-08-02T13:01:09.000Z",
+                "image": "https://assets.tickertape.in/images/news-publishers/businessstandard.png",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/businessstandard.png",
+                    "id": "www.business-standard.com",
+                    "name": "Business Standard"
+                },
+                "stocks": [
+                    {
+                        "sid": "IDTI"
+                    },
+                    {
+                        "sid": "HDBK"
+                    },
+                    {
+                        "sid": "ITC"
+                    },
+                    {
+                        "sid": "MIRA"
+                    },
+                    {
+                        "sid": "RELI"
+                    },
+                    {
+                        "sid": ".NSEI"
+                    }
+                ],
+                "_id": "62e9277dded31f50024bc2e2"
+            },
+            {
+                "title": "Stocks in news: Zomato, ITC, Reliance Industries, Maruti and more",
+                "feed_type": "news-article",
+                "link": "https://www.businesstoday.in/markets/company-stock/story/stocks-in-news-zomato-itc-reliance-industries-maruti-sensex-nifty-343412-2022-08-02?utm_source=rssfeed",
+                "description": "Stocks in news: Zomato, ITC, RIL, Maruti Suzuki, Castrol India, Adani Green Energy, Max Financial and more",
+                "date": "2022-08-02T12:00:00.000Z",
+                "image": "https://pocket-image-cache.com/direct?url=http://akm-img-a-in.tosshub.com/businesstoday/images/story/202208/stock-market-6_1-sixteen_nine_0.jpg",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/businesstoday.png",
+                    "id": "www.businesstoday.in",
+                    "name": "Business Today"
+                },
+                "stocks": [
+                    {
+                        "sid": "ADNA"
+                    },
+                    {
+                        "sid": "CAST"
+                    },
+                    {
+                        "sid": "ITC"
+                    },
+                    {
+                        "sid": "MRTI"
+                    },
+                    {
+                        "sid": "RELI"
+                    },
+                    {
+                        "sid": "ZOM"
+                    }
+                ],
+                "_id": "62e897caded31f50024bbd88"
+            },
+            {
+                "title": "How many EPS downgrades has Nifty seen this earnings season?",
+                "feed_type": "news-article",
+                "link": "https://economictimes.indiatimes.com/markets/stocks/news/how-many-eps-downgrades-has-nifty-seen-this-earnings-season/articleshow/93298154.cms",
+                "description": "“Heavyweights, such as Reliance and Tata Motors, which posted weaker-than expected performance, dragged the Nifty50 earnings,” it said, adding that Nifty50 profits, excluding Reliance Industries and Tata Motors, rose 9 per cent YoY against the expectations of 6 per cent growth.",
+                "date": "2022-08-02T10:57:00.000Z",
+                "image": "https://pocket-image-cache.com/direct?url=http://img.etimg.com/thumb/msid-93298313,width-1070,height-580,imgsize-30902,overlay-etmarkets/photo.jpg",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/economictimes.png",
+                    "id": "economictimes.indiatimes.com",
+                    "name": "Economic Times"
+                },
+                "stocks": [
+                    {
+                        "sid": "IDTI"
+                    },
+                    {
+                        "sid": "MIRA"
+                    },
+                    {
+                        "sid": "RELI"
+                    },
+                    {
+                        "sid": "TAMdv"
+                    },
+                    {
+                        "sid": "TAMO"
+                    },
+                    {
+                        "sid": ".NSEI"
+                    }
+                ],
+                "_id": "62e9066cded31f50024bc1ad"
+            },
+            {
+                "title": "How 5G spectrum win can drive Reliance Industries’ stock",
+                "feed_type": "news-article",
+                "link": "https://www.livemint.com/market/stock-market-news/reliance-industries-shares-how-jio-s-5g-spectrum-auction-win-could-trigger-ril-s-stock-price-11659422549510.html",
+                "description": "Reliance Industries’ Jio is likely to have first-mover advantage in 5G, as per Bank of America",
+                "date": "2022-08-02T07:18:20.000Z",
+                "image": "https://pocket-image-cache.com/direct?url=http://images.livemint.com/img/2022/08/02/600x338/reliance_jio_1659423474888_1659423475112_1659423475112.JPG",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/livemint.png",
+                    "id": "www.livemint.com",
+                    "name": "Livemint"
+                },
+                "stocks": [
+                    {
+                        "sid": "RELI"
+                    }
+                ],
+                "_id": "62e8d5c7ded31f50024bbfbd"
+            },
+            {
+                "title": "Day Trading Guide For August 2, 2022",
+                "feed_type": "news-article",
+                "link": "https://www.thehindubusinessline.com/portfolio/day-trading-guide/day-trading-guide-for-august-02/article65711264.ece",
+                "description": "Day Trading Guide gives you the key intraday supports and resistances to watch out for on the Nifty Futures and other widely traded stocks such as Reliance Industries, Infosys, HDFC Bank, TCS, SBI. Based on the trend, it also gives intraday trade recommendations with specific entry as well as stop-l…",
+                "date": "2022-08-01T13:34:17.000Z",
+                "image": "https://pocket-image-cache.com/direct?url=http://bl-i.thgim.com/public/incoming/cton0b/article65685674.ece/alternates/LANDSCAPE_615/PO27_Stock_market.jpg",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/thehindubusinessline.png",
+                    "id": "www.thehindubusinessline.com",
+                    "name": "The Hindu Businessline"
+                },
+                "stocks": [
+                    {
+                        "sid": "HDBK"
+                    },
+                    {
+                        "sid": "IDTI"
+                    },
+                    {
+                        "sid": "INFY"
+                    },
+                    {
+                        "sid": "MIRA"
+                    },
+                    {
+                        "sid": "RELI"
+                    },
+                    {
+                        "sid": "SBI"
+                    },
+                    {
+                        "sid": "TCS"
+                    },
+                    {
+                        "sid": ".NSEI"
+                    }
+                ],
+                "_id": "62e9214eded31f50024bc2a8"
+            },
+            {
+                "title": "Nifty August futures trade at premium",
+                "feed_type": "news-article",
+                "link": "https://www.business-standard.com/article/news-cm/nifty-august-futures-trade-at-premium-122080101023_1.html",
+                "description": "Reliance Industries (RIL), Tata Motors and Tata Steel were the top traded contracts.",
+                "date": "2022-08-01T11:35:39.000Z",
+                "image": "https://assets.tickertape.in/images/news-publishers/businessstandard.png",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/businessstandard.png",
+                    "id": "www.business-standard.com",
+                    "name": "Business Standard"
+                },
+                "stocks": [
+                    {
+                        "sid": "IDTI"
+                    },
+                    {
+                        "sid": "MIRA"
+                    },
+                    {
+                        "sid": "RELI"
+                    },
+                    {
+                        "sid": "TISC"
+                    },
+                    {
+                        "sid": "TAMdv"
+                    },
+                    {
+                        "sid": "TAMO"
+                    },
+                    {
+                        "sid": ".NSEI"
+                    }
+                ],
+                "_id": "62e7c0e9a3cd12244dfb342e"
+            },
+            {
+                "title": "Markets rally for 4th day; Sensex reclaims 58,000-mark",
+                "feed_type": "news-article",
+                "link": "https://www.thehindu.com/business/markets/markets-rally-for-4th-day-sensex-reclaims-58000-mark/article65710943.ece",
+                "description": "Mahindra & Mahindra, NTPC, Reliance Industries, Maruti Suzuki India, Bharti Airtel, Kotak Mahindra Bank, Power Grid and UltraTech Cement were the lead gainers.",
+                "date": "2022-08-01T11:04:39.000Z",
+                "image": "https://pocket-image-cache.com/direct?url=http://th-i.thgim.com/public/incoming/vtgndd/article65697114.ece/alternates/LANDSCAPE_615/Stock%20Exchange%20Sensex%20NIFTY",
+                "publisher": {
+                    "logo": "https://assets.tickertape.in/images/news-publishers/thehindu.png",
+                    "id": "www.thehindu.com",
+                    "name": "The Hindu"
+                },
+                "stocks": [
+                    {
+                        "sid": "BRTI"
+                    },
+                    {
+                        "sid": "KTKM"
+                    },
+                    {
+                        "sid": "MRTI"
+                    },
+                    {
+                        "sid": "NTPC"
+                    },
+                    {
+                        "sid": "RELI"
+                    },
+                    {
+                        "sid": "ULTC"
+                    }
+                ],
+                "_id": "62e7b678a3cd12244dfb33eb"
+            }
+        ]
+    }
+}
+
+
+['/stocks/adani-ports-and-special-economic-zone-APSE', 
+'/stocks/apollo-hospitals-enterprise-APLH', '/stocks/axis-bank-AXBK', '/stocks/asian-paints-ASPN', 
+'/stocks/bajaj-finserv-BJFS', '/stocks/bajaj-auto-BAJA', '/stocks/bajaj-finance-BJFN', '/stocks/britannia-industries-BRIT', 
+'/stocks/bharti-airtel-BRTI', '/stocks/bharat-petroleum-corporation-BPCL', '/stocks/cipla-CIPL', '/stocks/coal-india-COAL', 
+'/stocks/drreddys-laboratories-REDY', '/stocks/divis-laboratories-DIVI', '/stocks/eicher-motors-EICH', '/stocks/grasim-industries-GRAS',
+ '/stocks/hindalco-industries-HALC', '/stocks/housing-development-finance-corporation-HDFC', '/stocks/hdfc-bank-HDBK', 
+ '/stocks/hdfc-life-insurance-company-HDFL', '/stocks/hcl-technologies-HCLT', '/stocks/hindustan-unilever-HLL', 
+ '/stocks/hero-motocorp-HROM', '/stocks/icici-bank-ICBK', '/stocks/itc-ITC', '/stocks/infosys-INFY', '/stocks/indusind-bank-INBK', 
+ '/stocks/jsw-steel-JSTL', '/stocks/kotak-mahindra-bank-KTKM', '/stocks/larsen-and-toubro-LART', '/stocks/mahindra-and-mahindra-MAHM', '
+ /stocks/maruti-suzuki-india-MRTI', '/stocks/nestle-india-NEST', '/stocks/oil-and-natural-gas-corporation-ONGC', '/stocks/ntpc-NTPC', 
+ '/stocks/power-grid-corporation-of-india-PGRD', '/stocks/reliance-industries-RELI', '/stocks/state-bank-of-india-SBI',
+  '/stocks/shree-cement-SHCM', '/stocks/sbi-life-insurance-company-SBIL', '/stocks/sun-pharmaceutical-industries-SUN',
+   '/stocks/tata-steel-TISC', '/stocks/tata-consumer-products-TACN', '/stocks/tata-motors-TAMO', '/stocks/tata-consultancy-services-TCS', 
+   '/stocks/tech-mahindra-TEML', '/stocks/titan-company-TITN', '/stocks/upl-UPLL', 
+   '/stocks/ultratech-cemhnologies Ltd | HCLTECH | Information Technology', 'Hindustan Unilever Ltd | HINDUNILVR | Consumer Staples', 'Hero MotoCorp Ltd | HEROMOTOCO | Consumer Discretionary', 'ICICI Bank Ltd | ICICIBANK | Financials', 'ITC Ltd | ITC | Consumer Staples', 'Infosys Ltd | INFY | Information Technology', 'Indusind Bank Ltd | INDUSINDBK | Financials', 'JSW Steel Ltd | JSWSTEEL | Materials', 'Kotak Mahindra Bank Ltd | KOTAKBANK | Financials', 'Larsen & Toubro Ltd | LT | Industrials', 'Mahindra and Mahindra Ltd | M&M | Consumer Discretionary', 'Maruti Suzuki India Ltd | MARUTI | Consumer Discretionary', 'Nestle India Ltd | NESTLEIND | Consumer Staples', 'Oil and Natural Gas Corporation Ltd | ONGC | Energy', 'NTPC Ltd | NTPC | Utilities', 'Power Grid Corporation of India Ltd | POWERGRID | Utilities', 'Reliance Industries Ltd | RELIANCE | Energy', 'State Bank of India | SBIN | Financials', 'Shree Cement Ltd | SHREECEM | Materials', 'SBI Life Insurance Company Ltd | SBILIFE | Financials', 'Sun Pharmaceutical Industries Ltd | SUNPHARMA | Health Care', 'Tata Steel Ltd | TATASTEEL | Materials', 'Tata Consumer Products Ltd | TATACONSUM | Consumer Staples', 'Tata Motors Ltd | TATAMOTORS | Consumer Discretionary', 'Tata Consultancy Services Ltd | TCS | Information Technology', 'Tech Mahindra Ltd | TECHM | Information Technology', 'Titan Company Ltd | TITAN | Consumer Discretionary', 'UPL Ltd | UPL | Materials', 'UltraTech Cement Ltd | ULTRACEMCO | Materials', 'Wipro Ltd | WIPRO | Information Technology']
