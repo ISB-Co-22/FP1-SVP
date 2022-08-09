@@ -3,6 +3,7 @@ import openpyxl
 import pandas as pd
 import requests as httpRequest
 from scrapy import Selector
+import flair as fl
 
 # Base URL for TickerTape
 tickertape_baseUrl = "https://tickertape.in"
@@ -13,7 +14,7 @@ tickertape_PageStockurlSuffix = "{0}/news?checklist=basic&type=news"
 # Api (FHR) URL for Individual Stock News on TickerTape. Count and Offset represent no. of news items to fetch and no. of items to skip
 tickertape_ApiStockNewsUrl = "https://api.tickertape.in/stocks/feed/{0}?count=10&offset=0&types=news-article,opinion-article"
 
-# Get the html content for the TickerTape Nifty 50 Stock List URL to extract the metadat for each stock
+# Get the html content for the TickerTape Nifty 50 Stock List URL to extract the metadata for each stock
 tickertapedotcom_stockList = httpRequest.get("https://www.tickertape.in/indices/nifty-50-index-.NSEI/constituents").content
 sel_tickertape = Selector(text = tickertapedotcom_stockList)
 
@@ -35,9 +36,24 @@ for (stockName, stockLink) in zip(stockSeedList_Names, stockSeedList_Links):
                                     'TickerTapePageUrl' :  tickertape_baseUrl + tickertape_PageStockurlSuffix.replace('{0}', stockLink),
                                     'TickerTapeApiUrl' : tickertape_ApiStockNewsUrl.replace('{0}', stockLink[stockLink.rindex("-")+1:])},  ignore_index = True)
 
+# Function to assign scores to the each news article based on FLAIR library ( pre-trained readymade model - https://pypi.org/project/flair/)
+def AssignSentimentScores(dataFrameToAnalyze, columnNameInDataframeToAnalyze):
+    sentiment_model = fl.models.TextClassifier.load('en-sentiment')
+    dataFrameToAnalyze["Sentiment_Score"] = 0.0000
+    dataFrameToAnalyze["Sentiment_Val"] = ""
+    dataFrameToAnalyze["Sentiment_Prob"] = 0.0000
+    for eachItemIndex in dataFrameToAnalyze.index :
+        score_description = fl.data.Sentence(dataFrameToAnalyze[columnNameInDataframeToAnalyze][eachItemIndex])
+        sentiment_model.predict(score_description)
+        dataFrameToAnalyze["Sentiment_Val"][eachItemIndex] = score_description.labels[0].value
+        dataFrameToAnalyze["Sentiment_Prob"][eachItemIndex] = score_description.labels[0].score
+        # Assigning score from -1 to +1 obtained ny multiplying probability with sentiment value ( POSITIVE (+1) or NEGATIVE(-1))
+        scoreValueFromMinus1ToPlus1 = score_description.labels[0].score * (1 if score_description.labels[0].value == "POSITIVE" else -1)
+        dataFrameToAnalyze["Sentiment_Score"][eachItemIndex] = scoreValueFromMinus1ToPlus1
+    return dataFrameToAnalyze
+
 # Dataframe to hold every news artcile with datetime and Stock name etc
 df_DateWiseStockNews = []
-
 # Iterate through every stock in the Metadata DF and fetch the news using the stock specific URL
 for eachStockIndex in df_StockListMetadata.index :
     # Get response having news article for each stock
@@ -48,13 +64,19 @@ for eachStockIndex in df_StockListMetadata.index :
     df_Temp = pd.json_normalize(json.loads(response_text))
     # Copy over the Stock code and name from the metadata DF into the temp DF to associate every news item with Stock
     df_Temp["Stock_Code"] = df_StockListMetadata['Stock_Code'][eachStockIndex]
-    df_Temp["Stock_Name"] = df_StockListMetadata['Stock_FullName'][eachStockIndex]
+    # df_Temp["Stock_Name"] = df_StockListMetadata['Stock_FullName'][eachStockIndex]
     # Drop the unused columns
-    df_Temp = df_Temp.drop(['feed_type', 'link', 'image', '_id' , 'publisher.logo', 'publisher.id', 'publisher.name'], axis = 1)
+    df_Temp = df_Temp.drop(['feed_type', 'link', 'image', '_id' , 'publisher.logo', 'publisher.id', 'publisher.name', 'stocks'], axis = 1)
+    # Calling the function to assign scores
+    df_Temp = AssignSentimentScores(df_Temp, "title")
     if (eachStockIndex == 0):
         # Copyover the schema of temp DF to final DF to allow merging / concat of dataframes
         df_DateWiseStockNews = df_Temp
     else:
         df_DateWiseStockNews = pd.concat([df_DateWiseStockNews, df_Temp])
-df_DateWiseStockNews.to_csv("StockNewsData.csv")
-df_StockListMetadata.to_csv("StockMetaData.csv")
+
+# Add a new column to keep Date part only
+df_DateWiseStockNews["DateOnly"] = pd.to_datetime(df_DateWiseStockNews["date"]).dt.date
+# Aggregating Sentiment scores for every combination of StockCode and Date
+df_NewsScoreByStockNDate = df_DateWiseStockNews.groupby(['Stock_Code', 'DateOnly']).agg({'Sentiment_Score': ['mean']})
+df_NewsScoreByStockNDate = df_NewsScoreByStockNDate.reset_index()
