@@ -14,4 +14,5 @@ for i in symbol:
 df1 = df.drop(['Series','Prev Close','High','Low','Last','VWAP','Volume','Turnover', 'Trades', 'Deliverable Volume', '%Deliverble'], axis = 1)
 df1['MA5'] = df1['Close'].rolling(window = 5).mean()
 df1['ROC'] = (df1['MA5']-df1['Close'])/df1['MA5']
+# Add a column (Y) as the relative increae or decrease from todays closing price to next day's opening Price. This is required for training the model
 df1['Result(Y)'] = (df1['Open'].shift(-1) - df1['Close']) / df1['Close']
