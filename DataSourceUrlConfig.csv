@@ -1,8 +1,0 @@
-Key	Seed_Url
-Investing.com_BaseUrl	https://in.investing.com/
-Investing.com_StockList	indices/s-p-cnx-nifty-components
-Investing.com_StockNews	{0}-news
-TickerTape.com_BaseUrl	https://www.tickertape.in/
-TickerTape.com_StockList	indices/nifty-50-index-.NSEI/constituents
-TickerTape.com_StockNews	/stocks/{0}/news?checklist=basic&type=news
-TickerTape.com_MarketMood	market-mood-index
